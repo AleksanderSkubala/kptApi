@@ -44,16 +44,18 @@
     $html = $content; //setting content
     $mpdf->WriteHTML($html);   //merging page with content
 
-    $mpdf->Output( $nameOut.'.pdf', $downOut);  //doing output
-    exit;
+    if($content){
+        $mpdf->Output( $nameOut.'.pdf', $downOut);  //doing output
+        exit;
+    }
 
     ///RETURNING JSON///
 
-    /*$json = array(
+    $json = array(
         'status' => $status,
         'name' => $name.'.pdf'
     );
 
-    echo json_encode($json);*/
+    echo json_encode($json);
 
 ?>

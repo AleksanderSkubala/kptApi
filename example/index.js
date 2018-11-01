@@ -4,19 +4,19 @@ var data = `
 
 var name = 'konspekt';
 
-var down = 'load';
+var down = 'download';
 
-function api(){
-    axios({
-        method: 'get',
-        url: 'localhost/kptApi/index.php',
-        data: {
-          data: data,
-          name: name,
-          down: down
-        }
-    })
-    .then(function(response){
-        console.log(response);
-    });
-}
+const ob = {
+    'name' : "konspekt",
+    'down' : "load",
+    'data' : "<div>Hej</div>",
+};
+
+$.ajax({
+    url : 'http://localhost/kptApi/index.php',
+    method: 'get',
+    contentType : 'application/json',
+    data : ob
+}).done(function(json) {
+    console.log(json);
+});
