@@ -8,8 +8,8 @@ var down = 'load';
 
 function api(){
     axios({
-        method: 'post',
-        url: 'p-webowe.000webhostapp.com/kptApi/index.php',
+        method: 'get',
+        url: 'localhost/kptApi/index.php',
         data: {
           data: data,
           name: name,
