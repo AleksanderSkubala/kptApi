@@ -34,7 +34,7 @@ kptApi
     `;
     ```
 
-    >type<
+    >type
     size of pdf
     ```
     W.I.P
@@ -49,4 +49,4 @@ kptApi
     ```
 
 
-==============
+===

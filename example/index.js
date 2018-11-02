@@ -5,8 +5,8 @@ var name = 'konspekt';
 var down = 'DOWNLOAD';
 
 const ob = {
-    'name' : name,
-    'down' : down,
+    'name' : 'konspekt',
+    'down' : 'load',
     'data' : '<div>Hej</div>',
 };
 
