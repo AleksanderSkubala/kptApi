@@ -1,10 +1,8 @@
-var data = `
+    var data = `
     <div>Hej</div>
-`;
-
-var name = 'konspekt';
-
-var down = 'download';
+    `;
+    var name = 'konspekt';
+    var down = 'download';
 
 const ob = {
     'name' : "konspekt",
@@ -13,7 +11,7 @@ const ob = {
 };
 
 $.ajax({
-    url : 'http://localhost/kptApi/index.php',
+    url : 'http://localhost/kptApi/php/index.php',
     method: 'get',
     contentType : 'application/json',
     data : ob

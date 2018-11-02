@@ -38,7 +38,7 @@
 
     ///CREATING PDF///
 
-    include("mpdf/mpdf.php");  //including mpdf library
+    include("../mpdf/mpdf.php");  //including mpdf library
     $mpdf = new mPDF('pl','A4');  //creating var with page
 
     $html = $content; //setting content
