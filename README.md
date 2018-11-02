@@ -3,7 +3,7 @@ kptApi
 
 ### Small library for creating pdf-s(based on mpdf and jsPdf)
 
-===
+==============
 
 ### USAGE
 
@@ -34,8 +34,8 @@ kptApi
     `;
     ```
 
-    >type
-    >size of pdf
+    >type<
+    size of pdf
     ```
     W.I.P
     ```
@@ -49,4 +49,4 @@ kptApi
     ```
 
 
-===
+==============
