@@ -25,17 +25,17 @@ kptApi
 3. Data
 
     >data
-    var with html template
+    >var with html template
     ```
-
     var data = `
-    <div>Hi</div>
-    `;
 
+    <div>Hi</div>
+
+    `;
     ```
 
     >type
-    size of pdf
+    >size of pdf
     ```
     W.I.P
     ```
@@ -43,11 +43,9 @@ kptApi
     >down
     information about - do you want to download or load on page your pdf
     ```
-
     var down = 'load';
     //OR
     var down = 'down';  //default
-
     ```
 
 
