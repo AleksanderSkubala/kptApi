@@ -1,19 +1,22 @@
 var data = `
-    <div>Hej</div>
+    <div>Czeć</div>
 `;
 var name = 'konspekt';
 var down = 'DOWNLOAD';
 
 const ob = {
-    'name' : 'konspekt',
+    'name' : name,
     'down' : 'load',
-    'data' : '<div>Hej</div>',
+    'data' : data,
 };
 
 
 function downloadPDF(){
+    /*var dataOb = data.replace(/\s/g,'');
+    location.replace("http://p-webowe.000webhostapp.com/kptApi/index.php?name="+name+"&down=download&data="+dataOb);*/
+
     $.ajax({
-        url : 'http://localhost/kptApi/php/index.php',
+        url : 'http://p-webowe.000webhostapp.com/kptApi/index.php',
         method: 'get',
         contentType : 'application/json',
         data : ob

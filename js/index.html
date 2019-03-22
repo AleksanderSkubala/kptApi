@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+
+    <script src="html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+    <script src="kptapi.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but kpt doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="konspekt" style="
+      position: fixed;
+      display: none;
+    "> <!--REQUIRED ID AND STYLE--->
+      <p>Cześć!</p>
+      <p>Hi!</p>
+    </div>
+    <div id="app">
+      <button onclick="download()">addHTML(multiple pages)</button>
+      <button onclick="download()">html2canvas(single pages)</button>
+      <button onclick="download()">png</button>
+    </div>
+  </body>
+</html>
